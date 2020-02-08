@@ -8,6 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          Hey there! My name is ARRCHER! Let's meet tomorrow. No, today is better.
+        </p>
+        <p>
+          Well ...
+        </p>
+        <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
