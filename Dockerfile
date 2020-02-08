@@ -1,7 +1,7 @@
 # Build phase (builder phase)
 FROM node:alpine as builder
 
-ARG proxy_http=http://proxy.rockwellcollins.com:9090
+ARG proxy_http # provided by caller
 ARG HTTP_PROXY=$proxy_http
 ARG HTTPS_PROXY=$proxy_http
 ARG http_proxy=$proxy_http
